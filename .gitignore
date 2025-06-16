@@ -1,0 +1,29 @@
+# Ignore data folder (UCI HAR dataset)
+data/
+UCI HAR Dataset/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# VSCode settings (if you use VSCode)
+.vscode/
+*.code-workspace
+
+# Model checkpoints or logs
+checkpoints/
+logs/
+*.h5
+*.ckpt
+*.pb
